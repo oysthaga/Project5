@@ -24,3 +24,5 @@ slits = number of slits, type int. Must be 1, 2 or 3. (For no wall, set v0=0.)
 
 
 The Python codes has been run in Spyder using the "Run" command. To run wall.py, first run Main.cpp with lines 209 and 210 uncomented. To run the other Python codes, first run Main.cpp with appropriate input. An armadillo cube with the time-evolving wavefunction will be saved as Us.bin. Change the name of this file so it matches the names in the Python files. 
+
+wall.py plots the wall with double-slit. TimeEvol.py plots the deviation of the probability from 1 as a function of time for no wall and double slit. Prob8.py plots the probability distribution, as well as the real and imaginary parts of the wavefunction, in the xy-plane at three instances of time. Prob9.py plots the probability distribution along the y-axis after the wavefunction has passed the slits. 
