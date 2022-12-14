@@ -15,11 +15,13 @@ p = p.real # Discard imaginary part (is zero, but this keeps Pyplot from complai
 Dt = 2.5e-5 # time-step
 T = 0.002 # total period
 t = np.arange(0, T, Dt)
+
+# Indices of time-innstances. 
 n1 = 0
 n2 = 40-1
 n3 = 80-1
 
-h = 0.005
+h = 0.005 # length-step. 
 x = np.arange(h,1-h, h)
 y = np.arange(h,1-h, h)
 
